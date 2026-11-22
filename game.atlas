@@ -1,0 +1,146 @@
+
+game.png
+size: 2048,1024
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+UnitIcons/Warrior Tan
+  rotate: false
+  xy: 8, 8
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Swordsman Tan
+  rotate: false
+  xy: 224, 8
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Longswordsman Tan
+  rotate: false
+  xy: 440, 8
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Gun Terror
+  rotate: false
+  xy: 656, 8
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Gati Infantry
+  rotate: false
+  xy: 872, 8
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Arquebusier Vawaka
+  rotate: false
+  xy: 1088, 8
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Hulan Ranged
+  rotate: false
+  xy: 1304, 8
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Archer
+  rotate: false
+  xy: 1520, 8
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Supply assisstant
+  rotate: false
+  xy: 1736, 8
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Vawaka Commander
+  rotate: false
+  xy: 8, 224
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Blessed
+  rotate: false
+  xy: 224, 224
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Medical knowledge
+  rotate: false
+  xy: 440, 224
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Survival ability
+  rotate: false
+  xy: 656, 224
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Legion
+  rotate: false
+  xy: 872, 224
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Granda
+  rotate: false
+  xy: 1088, 224
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Hills Paradise
+  rotate: false
+  xy: 1304, 224
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Pharmaceutical Var
+  rotate: false
+  xy: 1520, 224
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ReligionIcons/Tahanism
+  rotate: false
+  xy: 1736, 224
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Vawaka
+  rotate: false
+  xy: 8, 440
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+LeaderIcons/Ahwak Takara
+  rotate: false
+  xy: 124, 440
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,60 @@
+[
+	{
+		"name": "Vawaka",
+		"leaderName": "Ahwak Takara",
+		"adjective": ["Vawakan"],
+		"startBias": ["Coast", "Hill"],
+		"preferredVictoryType": "Domination",
+		"favoredReligion": "Tahanism",
+		
+		"spyNames": ["Avar 2.0","Huas In", "Nos Tigam", "Hells", "Ragnga", "Felo 123", "Gitas", "Rek Ona", "Piv", "Ollan Fra"],
+		
+		"outerColor": [26, 26, 46],
+		"innerColor": [242, 193, 78],
+		
+		"startIntroPart1": "Lord Ahwak Takara, sovereign of Vawaka — founder of Vaka in the fires of a fratricidal war, who rose to become the one true Van of these lands. He conquered the northern territories to impose law upon barbarism, forging the first order this continent had ever known. He led his people to the very pinnacle of power and established the one undeniable law of the world. These Vawakian scientists who shaped the world, these explorers, these ruthless yet valiant warriors — the world once bore the mark of Vawaka's symbol.",
+		"startIntroPart2": "High Ahwak — can you restore this apogee to your people? Lead them to the light of our God Tah, and so reestablish our symbol upon this new world ?",
+		
+		"declaringWar": "We believe your existence no longer has any place in this world !",
+		"attacked": "You made a grave mistake if you think that by eliminating us you will get what you want !",
+		"defeated": "My people will never forget their origins. I beseech you !",
+		"introduction": "Bow before our Van, Ahwak Takara — the greatest among the kings of these lands !",
+		
+		"neutralHello": "Greetings.",
+		"neutralLetsHearIt": ["Yes.","Speak."],
+		"neutralNo": ["No.","That's unacceptable."],
+		"neutralYes": ["I can't refuse.","I gladly accept."],
+		"hateHello": "Don't waste my time!",
+		"hateLetsHearIt": "What's your offer?",
+		"hateNo": ["Vawaka will never accept that!","No way!"],
+		"hateYes": ["I must accept.","I never reject a good offer."],
+		
+		"afterPeace": "Let's celebrate this glorious day, when our nations decided to sign a peace treaty!",
+		"tradeRequest": "I've got an offer. Are you interested?",
+		"uniqueName": "Vaka Order",
+		"uniques": ["[+20]% [Science] [in all cities] <during a Golden Age>", "[+25]% Golden Age length", "Units ignore terrain costs when moving into any tile with Hills", "[+1 Production] from [Hill] tiles [in all cities]", "May choose [1] additional [Follower] beliefs when [founding] a religion", "No movement cost to pillage", "[+20]% Yield from pillaging tiles", "Starts with [Archery]"],
+		"cities": ["Vaka", "Arawaka", "Takhar", "Vahkora", "Naruwaka", "Kahatan", "Ravaka", "Tharuma", "Akawen", "Warhakan", "Koratha", "Hanawir", "Takawen", "Varkana", "Rahkatu", "Awakara", "Karuwah", "Thakara", "Narhawa", "Vakuran", "Harawen", "Katwara", "Ruhakan", "Awathar", "Karhawa", "Takuran", "Warataka", "Hanakara", "Ravuhan"
+		],
+		
+		"civilopediaText": [
+        {
+            "text": "The Vawakan civilization emerged from a land shaped by ancient traditions, powerful rulers, and an enduring spirit of discovery. Its people are renowned for their resilience, strategic intelligence, and mastery of their surroundings."
+        },
+        {
+            "text": "Under the leadership of Ahwak Takara, Vawaka seeks to expand its influence through strength, diplomacy, and technological progress. Its cities stand as symbols of an ancient heritage and an ambitious future."
+        },
+        {
+            "separator": true
+        },
+        {
+            "text": "Tips to play:"
+        },
+        {
+            "text": "Develop your cities strategically and take advantage of Vawaka's strengths. Balance economic growth, military preparation, and scientific advancement to establish a powerful civilization."
+        },
+        {
+            "text": "Vawaka rewards careful planning and long-term expansion. Secure valuable territory, strengthen your infrastructure, and use diplomacy wisely to overcome rival civilizations."
+        }
+      ]
+	}
+    ]

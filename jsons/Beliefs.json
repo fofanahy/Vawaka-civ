@@ -1,0 +1,12 @@
+[
+	{
+		"name": "God's domain",
+		"type": "Pantheon",
+		"uniques": ["[+1 Faith] from every [Hill]"]
+	},
+	{
+		"name": "Law of Nature",
+		"type": "Pantheon",
+		"uniques": ["May buy [Worker] units with [Faith] [in all cities]"]
+	}
+]

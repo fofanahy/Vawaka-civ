@@ -1,4 +1,5 @@
 [
+	// The legion III will the icon because Unciv already give the upgrade.
 	{
 	    "name": "Medical knowledge",
 	    "uniques": ["[1] Movement", "[+5] HP when healing"]

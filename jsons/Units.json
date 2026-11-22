@@ -1,4 +1,5 @@
 [
+	// Problem is the UnitPromotions uniques ! But not an error, just warning.
     // Civilian units
     {
 		"name": "Supply assisstant",

@@ -1,0 +1,49 @@
+[
+    {
+		"name": "Granda",
+		"replaces": "Opera House",
+		"requiredTech": "Acoustics",
+		"requiredBuilding": "Amphitheater",
+		"cost": 220,
+		"maintenance": 2,
+		"happiness": 2,
+		"culture": 5,
+		"specialistSlots": {"Artist": 3},
+		"uniqueTo": "Vawaka",
+		"civilopediaText": [
+		    {
+		        "text": "The Granda is the beating heart of Vawaka's cultural life. Beneath its vaulted ceiling, storytellers, singers and dancers perform epics passed down through generations, and the whole city gathers to listen. A great performance here is said to make even the hills fall silent."
+		    }
+		]
+	},
+	{
+	    "name": "Pharmaceutical Var",
+		"replaces": "Hospital",
+		"uniqueTo": "Vawaka",
+		"food": 2,
+		"happiness": 1,
+		"requiredBuilding": "Aqueduct",
+		"cost": 290,
+		"requiredTech": "Biology",
+		"uniques": ["All newly-trained [Military] units [in this city] receive the [Medical knowledge] promotion"],
+		"civilopediaText": [
+		    {
+		        "text": "Part laboratory, part sanctuary, the Pharmaceutical Var combines the herbal wisdom of Vawaka's healers with modern biological science. Its remedies keep the population strong, and those who serve the city leave its halls trained in the art of medicine."
+		    }
+		]
+	},
+	{
+		"name": "Hills Paradise",
+		"replaces": "Monument",
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"culture": 2,
+		"uniqueTo": "Vawaka",
+		"uniques": ["[+1 Culture] from [Hill] tiles [in this city] <with [1] to [2] neighboring [City center] tiles>", "[+1 Science] from [Hill] tiles [in this city] <after discovering [Flight]> <with [1] to [2] neighboring [City center] tiles> <with [1] to [6] neighboring [Mountain] tiles>", "[+2 Culture] <after discovering [Dynamite]>", "Cost increases by [20] per owned city"],
+		"civilopediaText": [
+		    {
+		        "text": "The people of Vawaka see their hills as sacred ground. The Hills Paradise is a monument of terraced gardens and carved stone that rises with the landscape itself, turning the city's heights into a place of beauty, inspiration and discovery. The more cities the empire builds, the greater the effort required to honor every hill."
+		    }
+		]
+	}
+]

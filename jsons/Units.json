@@ -1,0 +1,141 @@
+[
+    // Civilian units
+    {
+		"name": "Supply assisstant",
+		"unitType": "Civilian",
+		"uniqueTo": "Vawaka",
+		"movement": 6,
+		"promotions": ["Medical knowledge"],
+		"uniques": ["All adjacent units heal [+10] HP when healing", "Transfer Movement to [Military]", "Uncapturable"],
+		"cost": 450,
+		"requiredTech": "Pharmaceuticals"
+    },
+    {
+        "name": "Vawaka Commander",
+		"unitType": "Civilian",
+		"uniqueTo": "Vawaka",
+		"promotions": ["Medical knowledge"],
+		"movement": 2,
+		"cost": 400,
+		"requiredTech": "Military Science",
+		"uniques": ["[+10]% Strength bonus for [Military] units within [1] tiles", "Uncapturable", "Only available <if [Barracks] is constructed>", "[+1] Movement <after discovering [Combined Arms]>", "[+1] Movement <after discovering [Mobile Tactics]>"]
+    },
+    // Melee units
+    {
+		"name": "Warrior Tan",
+		"unitType": "Sword",
+        "uniqueTo": "Vawaka",
+		"promotions": ["Medical knowledge", "Blessed", "Survival ability", "Legion I"],
+		"movement": 2,
+		"strength": 10,
+		"cost": 40,
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"uniques" : ["Infantry"],
+		"attackSound": "nonmetalhit"
+    },
+    {
+		"name": "Swordsman Tan",
+		"unitType": "Sword",
+		"uniqueTo": "Vawaka",
+        "promotions": ["Medical knowledge", "Blessed", "Survival ability", "Legion II"],
+		"movement": 2,
+		"strength": 15,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"uniques": ["Infantry"],
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+    },
+    {
+        "name": "Longswordsman Tan",
+		"unitType": "Sword",
+		"uniqueTo": "Vawaka",
+        "promotions": ["Medical knowledge", "Blessed", "Survival ability", "Legion III"],
+		"movement": 2,
+		"strength": 25,
+		"cost": 120,
+		"requiredTech": "Steel",
+		"upgradesTo": "Gun Terror",
+		"uniques": ["Infantry"],
+		"obsoleteTech": "Gunpowder",
+		"requiredResource": "Iron",
+		"attackSound": "metalhit"
+    },
+    // Infantry units
+    {
+		"name": "Gun Terror",
+		"unitType": "Gunpowder",
+		"uniqueTo": "Vawaka",
+		"movement": 3,
+		"strength": 25,
+		"cost": 150,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"uniques": ["Infantry"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Gati Infantry",
+		"unitType": "Sword",
+		"uniqueTo": "Vawaka",
+		"movement": 2,
+		"strength": 15,
+		"cost": 70,
+		"requiredTech": "Iron Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+40]% Strength <vs [Mounted] units>", "Never appears as a Barbarian unit", "[-15]% Strength <vs [Infantry] units>"],
+		"attackSound": "metalhit"
+	},
+	// Ranged units
+	{
+		"name": "Arquebusier Vawaka",
+		"unitType": "Ranged Gunpowder",
+		"uniqueTo": "Vawaka",
+		"movement": 2,
+		"strength": 20,
+		"rangedStrength": 20,
+		"range": 1,
+		"cost": 185,
+		"uniques": ["[-20]% Strength <vs [Mounted] units> <when defending>","[-20]% Strength <vs [Armored] units> <when defending>"],
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Hulan Ranged",
+		"obsoleteTech": "Rifling",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Hulan Ranged",
+		"unitType": "Ranged Gunpowder",
+		"uniqueTo": "Vawaka",
+		"movement": 2,
+		"strength": 30,
+		"rangedStrength": 30,
+		"range": 1,
+		"cost": 225,
+		"uniques": ["[-20]% Strength <vs [Mounted] units> <when defending>","[-20]% Strength <vs [Armored] units> <when defending>"],
+		"requiredTech": "Rifling",
+		"upgradesTo": "Great War Infantry",
+		"obsoleteTech": "Replaceable Parts",
+		"attackSound": "shot"
+	},
+	// Archer units
+	{
+		"name": "Archer",
+		"unitType": "Archery",
+		"uniqueTo": "Vawaka",
+		"movement": 3,
+		"strength": 10,
+		"rangedStrength": 10,
+		"cost": 40,
+		"requiredTech": "Archery",
+		"obsoleteTech": "Gunpowder",
+		"uniques": ["[-15]% Strength <vs [Infantry] units>"],
+		"upgradesTo": "Arquebusier Vawaka",
+		"attackSound": "arrow"
+	}
+]

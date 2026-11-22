@@ -1,0 +1,37 @@
+[
+	{
+	    "name": "Medical knowledge",
+	    "uniques": ["[1] Movement", "[+5] HP when healing"]
+	},
+	{
+		"name": "Blessed",
+		"uniques": ["Ignores terrain cost <when below [100] HP>"]
+	},
+	{
+		"name": "Survival ability",
+		"uniques": ["Heals [+20] damage if it kills a unit","[+10] HP when healing","[+10]% XP gained from combat"]
+	},
+	{
+		"name": "Legion I",
+		"uniques": ["[+5]% Strength"],
+		"unitTypes": ["Sword"],
+		"column": 0,
+		"row": 12
+	},
+	{
+		"name": "Legion II",
+		"prerequisites": ["Legion I"],
+		"uniques": ["[+10]% Strength"],
+		"unitTypes": ["Sword"],
+		"column": 1,
+		"row": 12
+	},
+	{
+		"name": "Legion III",
+		"prerequisites": ["Legion II"],
+		"uniques": ["[+20]% Strength"],
+		"unitTypes": ["Sword"],
+		"column": 2,
+		"row": 12
+	}
+]
